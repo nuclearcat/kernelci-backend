@@ -1,5 +1,12 @@
 {{ subject_str }}
 {# leave an empty space #}
+This legacy KernelCI providing this report will shutdown sometime
+soon in favor of our new KernelCI infra. Not all tests are being
+migrated.
+If you are still using this report and want us to prioritize your
+usecase in the new system, please let us know at
+kernelci@lists.linux.dev
+
 {{ full_build_summary }}
 {# leave an empty space #}
 {{ tree_string }}
